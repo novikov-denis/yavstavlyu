@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "ЯВставляю",
+  "version": "3.0",
+  "description": "Сканирует страницу на наличие тегов Markdown и копирует текст со всеми тегами.",
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "clipboardWrite"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "clipboardWrite"
+  ],
+  "host_permissions": [
+    "*://*/*"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["blocksScript.js"],
+      "matches": ["*://*.yonote.ru/*"]
+    }
+  ]
+}

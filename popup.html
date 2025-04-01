@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Markdown Scanner</title>
+  <style>
+     body {
+       width: 200px;
+       height: 350px;
+       background-color: #3E3E3E;
+       border-radius: 35px;
+       margin: 0;
+       padding-top: 24px;
+       box-sizing: border-box;
+       font-family: Arial, sans-serif;
+       overflow: hidden;
+     }
+     .logo {
+       display: flex;
+       justify-content: center;
+     }
+     .logo img {
+       width: 179px;
+       height: 40px;
+     }
+     .buttons {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       margin-top: 20px;
+     }
+     .buttons button {
+       background: none;
+       border: none;
+       cursor: pointer;
+       margin-bottom: -4px;
+     }
+     .buttons button img {
+       width: 135px;
+       height: 122px;
+       transition: transform 0.2s, opacity 0.2s;
+     }
+     .buttons button:hover img {
+       transform: scale(1.05);
+       opacity: 0.9;
+     }
+     .buttons button:active img {
+       transform: scale(0.95);
+       opacity: 0.8;
+     }
+  </style>
+</head>
+<body>
+  <!-- Логотип -->
+  <div class="logo">
+    <img src="logo-text.png" alt="Логотип">
+  </div>
+
+  <!-- Кнопки -->
+  <div class="buttons">
+    <button id="scanButton" aria-label="Первая кнопка">
+      <img src="button1.png" alt="Первая кнопка">
+    </button>
+    <!-- Кнопка для копирования квиза -->
+    <button id="quizButton" aria-label="Скопировать квиз">
+      <img src="button3.png" alt="Скопировать квиз">
+    </button>
+    <button id="blockButton" aria-label="Вторая кнопка">
+      <img src="button2.png" alt="Вторая кнопка">
+    </button>
+  </div>
+
+  <!-- Скрипты всплывающего окна -->
+  <script src="popup.js"></script>
+  <!-- Дополнительный скрипт для другого функционала, если нужен -->
+  <script src="quiz.js"></script>
+</body>
+</html>
