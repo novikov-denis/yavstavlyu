@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "ЯВставляю",
-  "version": "3.0",
+  "version": "4.0",
   "description": "Сканирует страницу на наличие тегов Markdown и копирует текст со всеми тегами.",
   "permissions": [
     "scripting",
