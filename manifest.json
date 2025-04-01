@@ -25,5 +25,6 @@
       "resources": ["blocksScript.js"],
       "matches": ["*://*.yonote.ru/*"]
     }
-  ]
+  ],
+  "update_url": "https://USERNAME.github.io/my-chrome-extension/update.xml"
 }
