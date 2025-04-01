@@ -26,5 +26,5 @@
       "matches": ["*://*.yonote.ru/*"]
     }
   ],
-  "update_url": "https://USERNAME.github.io/my-chrome-extension/update.xml"
+  "update_url": "https://novikov-denis.github.io/yavstavlyu/update.xml"
 }
